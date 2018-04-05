@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".AddEvent"/>
+        <activity android:name=".AddRappel"/>
+        <activity android:name=".AddListe"/>
+        <activity android:name=".AddPatron"/>
+        <activity android:name=".AddRSS"/>
     </application>
 
 </manifest>

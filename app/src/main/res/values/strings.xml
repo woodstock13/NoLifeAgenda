@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">NoLifeAgenda</string>
     <string name="bouton_ajouter">Ajouter</string>
+    <string name="valider">Valider</string>
+    <string name="rappelSonore">Rappel sonore</string>
+    <string name="daily">Prévu pour le </string>
+    <string name="previewText">Preview du calendrier</string>
+    <string name="indic_flux">URL du flux RSS</string>
 </resources>

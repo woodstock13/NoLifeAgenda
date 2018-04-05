@@ -16,6 +16,7 @@ class AddRappel extends AppCompatActivity
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_addrappel);
 
+        this.setTitle("Ajouter un rappel");
         //Récupération des informations
         Intent intent = this.getIntent();
     }
