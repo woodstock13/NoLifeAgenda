@@ -2,7 +2,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -48,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <MultiAutoCompleteTextView
+    <EditText
         android:id="@+id/eventDesc"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -56,8 +55,9 @@
         android:layout_marginEnd="42dp"
         android:layout_marginStart="42dp"
         android:layout_marginTop="24dp"
+        android:onClick="onSelectText"
         android:text="DESCRIPTION DE L'EVENEMENT"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

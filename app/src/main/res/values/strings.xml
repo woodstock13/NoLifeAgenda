@@ -6,4 +6,23 @@
     <string name="daily">Prévu pour le </string>
     <string name="previewText">Preview du calendrier</string>
     <string name="indic_flux">URL du flux RSS</string>
+    <string name="titreRappel">Titre du rappel</string>
+    <string name="noteRappel">Note du rappel</string>
+    <string name="niveauImpRappel">Niveau d\'importance du rappel</string>
+    <string name="rappelImp1">!</string>
+    <string name="rappelImp2">!!</string>
+    <string name="rappelImp3">!!!</string>
+    <string name="reminderTitle">Me rappeler :</string>
+    <string-array name="reminderEntries">
+        <item>10 minutes avant</item>
+        <item>30 minutes avant</item>
+        <item>1 heure avant</item>
+        <item>2 heures avant</item>
+        <item>1 jour avant</item>
+    </string-array>
+    <string name="nomListe">Nom de la liste</string>
+    <string name="elemAjout">Element à ajouter à la liste</string>
+    <string name="ajoutElemBouton">Ajouter l\'élément</string>
+    <string name="noteListeElem">Cliquez sur un élément pour le supprimer de la liste</string>
+
 </resources>
