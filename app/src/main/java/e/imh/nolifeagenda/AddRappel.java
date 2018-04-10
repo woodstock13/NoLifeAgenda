@@ -20,7 +20,7 @@ public class AddRappel extends AppCompatActivity
         this.setContentView(R.layout.activity_addrappel);
 
         this.setTitle("Ajouter un rappel");
-        Spinner spinner = (Spinner) findViewById(R.id.reminderList);
+        Spinner spinner = (Spinner) findViewById(R.id.patronActivitesList);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.reminderEntries, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);

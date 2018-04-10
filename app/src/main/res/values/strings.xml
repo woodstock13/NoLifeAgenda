@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">NoLifeAgenda</string>
     <string name="bouton_ajouter">Ajouter</string>
     <string name="valider">Valider</string>
@@ -9,9 +10,6 @@
     <string name="titreRappel">Titre du rappel</string>
     <string name="noteRappel">Note du rappel</string>
     <string name="niveauImpRappel">Niveau d\'importance du rappel</string>
-    <string name="rappelImp1">!</string>
-    <string name="rappelImp2">!!</string>
-    <string name="rappelImp3">!!!</string>
     <string name="reminderTitle">Me rappeler :</string>
     <string-array name="reminderEntries">
         <item>10 minutes avant</item>
@@ -24,5 +22,12 @@
     <string name="elemAjout">Element à ajouter à la liste</string>
     <string name="ajoutElemBouton">Ajouter l\'élément</string>
     <string name="noteListeElem">Cliquez sur un élément pour le supprimer de la liste</string>
+    <string name="nomPatron">Nom du patron d\'activité</string>
+    <string-array name="patronListeEntries">
+        <item>Séléctionner un type d\'activités :</item>
+        <item>PVP (Players vs Players)</item>
+        <item>PVE (Players vs Events)</item>
+        <item>Réunion de guilde</item>
+    </string-array>
 
 </resources>
