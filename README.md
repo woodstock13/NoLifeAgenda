@@ -1,2 +1,2 @@
 # NoLifeAgenda
-Android studio agenda project for handle your gaming life 
+Android studio agenda project to handle your gaming life 
